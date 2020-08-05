@@ -1,0 +1,12 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.snippetSuggestions": "top",
+  "eslint.enable": true,
+  "eslint.packageManager": "npm",
+  "files.encoding": "utf8",
+  "javascript.format.enable": true,
+  "prettier.endOfLine": "crlf",
+  "workbench.iconTheme": "vscode-icons",
+}

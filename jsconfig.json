@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "globalUI/*": ["./src/common/globalUI/*"],
+      "mock/*": ["./mock/*"],
+      "@assets/*": ["./src/assets/*"], // alias  '@xxxx'
+      "@common/*": ["./src/common/*"],
+      "@components/*": ["./src/components/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@models/*": ["./src/models/*"],
+      "@services/*": ["./src/services/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@setting/*": ["./src/setting/*"]
+    }
+  }
+}

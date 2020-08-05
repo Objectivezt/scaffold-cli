@@ -7,9 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js ./src ",
+    "lint": "eslint --ext .js  ",
     "dll:dev": "webpack --env.development --config ./build/webpack.dll.config ",
-    "dll:prd": "webpack --env.production --config ./build/webpack.dll.config "
+    "dll:prd": "webpack --env.production --config ./build/webpack.dll.config ",
+    "pre-commit": "npm run lint"
   },
   "browerslist": [
     "not ie < 9",

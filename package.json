@@ -7,16 +7,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "lint": "eslint --ext .js ./src ",
     "dll:dev": "webpack --env.development --config ./build/webpack.dll.config ",
-    "dll:prd": "webpack --env.production --config ./build/webpack.dll.config ",
-    "pre:build": "webpack --env.production --config ./build/webpack.config",
-    "pre:dev": "webpack-dev-server --env.development --config ./build/webpack.config  --progress --colors --open",
-    "dev": "node bin/dev.js dev",
-    "dev:package": "node ./node_modules/@scaffold/cli/bin/dev.js",
-    "build": "node bin/build.js build",
-    "pre-commit": "npm run test && npm run lint"
+    "dll:prd": "webpack --env.production --config ./build/webpack.dll.config "
   },
   "browerslist": [
     "not ie < 9",
@@ -26,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Objectivezt/dva-react-webpack-boilerplate.git"
+    "url": "git+http://gitlab.objectivezt.com/objectivezt/scaffold-cli.git"
   },
   "author": "Objectivezt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Objectivezt/dva-react-webpack-boilerplate/issues"
+    "url": "http://gitlab.objectivezt.com/objectivezt/scaffold-cli/issues"
   },
   "husky": {
     "hooks": {
@@ -39,10 +32,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "homepage": "https://github.com/Objectivezt/dva-react-webpack-boilerplate#readme",
-  "devDependencies": {
-    "@scaffold/cli": "0.0.9"
-  },
+  "homepage": "http://gitlab.objectivezt.com/objectivezt/scaffold-cli#readme",
   "dependencies": {
     "@babel/core": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.7.0",

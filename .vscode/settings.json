@@ -9,4 +9,7 @@
   "javascript.format.enable": true,
   "prettier.endOfLine": "crlf",
   "workbench.iconTheme": "vscode-icons",
+  "cSpell.words": [
+    "didyoumean"
+  ],
 }
